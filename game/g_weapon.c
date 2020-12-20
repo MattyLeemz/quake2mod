@@ -354,8 +354,8 @@ void blaster_think(edict_t *self)
 	aimdir[1] = crandom();
 	aimdir[2] = crandom();
 
-	fire_grenade(self->owner, self->s.origin, aimdir, 25, 100, 2, 1000);
-	self->nextthink = level.time + 0.5;
+	fire_rocket(self->owner, self->s.origin, aimdir, 25, 1000, 2, 1000);
+	self->nextthink = level.time + 0.1;
 }
 void fire_blaster (edict_t *self, vec3_t start, vec3_t dir, int damage, int speed, int effect, qboolean hyper)
 {

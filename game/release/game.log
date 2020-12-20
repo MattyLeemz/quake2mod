@@ -1,4 +1,4 @@
-﻿Build started 12/20/2020 2:55:48 PM.
+﻿Build started 12/20/2020 3:14:40 PM.
      1>Project "C:\Program Files (x86)\Steam\steamapps\common\Quake 2\quake2mod\quake2-full\game\game.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
@@ -62,4 +62,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.47
+Time Elapsed 00:00:00.44
