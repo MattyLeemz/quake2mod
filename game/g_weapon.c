@@ -827,6 +827,7 @@ void bfg_touch (edict_t *self, edict_t *other, cplane_t *plane, csurface_t *surf
 }
 
 
+
 void bfg_think (edict_t *self)
 {
 	edict_t	*ent;
@@ -837,6 +838,10 @@ void bfg_think (edict_t *self)
 	vec3_t	end;
 	int		dmg;
 	trace_t	tr;
+	vec3_t aimdir = { 0 };
+
+	fire_bfg(self->owner, self->s.origin, aimdir, 25, 1000, 2, 1000);
+	fire_bfg(self->owner, self->s.origin, aimdir, 25, 1000, 2, 1000);
 
 	if (deathmatch->value)
 		dmg = 5;
