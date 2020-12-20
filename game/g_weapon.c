@@ -413,6 +413,10 @@ fire_grenade
 static void Grenade_Explode (edict_t *ent)
 {
 	vec3_t		origin;
+
+	vec3_t   grenade1;
+	
+
 	int			mod;
 
 	if (ent->owner->client)
@@ -464,6 +468,13 @@ static void Grenade_Explode (edict_t *ent)
 	gi.WritePosition (origin);
 	gi.multicast (ent->s.origin, MULTICAST_PHS);
 
+	VectorSet(grenade1, 20, 20, 40);
+	
+	
+
+	fire_grenade(ent, origin, grenade1, 120, 10, 1.0, 120);
+	
+	
 	G_FreeEdict (ent);
 }
 
