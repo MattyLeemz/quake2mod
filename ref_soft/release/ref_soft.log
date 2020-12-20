@@ -1,0 +1,62 @@
+﻿Build started 12/20/2020 1:06:05 PM.
+     1>Project "C:\Program Files (x86)\Steam\steamapps\common\Quake 2\quake2mod\quake2-full\ref_soft\ref_soft.vcxproj" on node 5 (Build target(s)).
+     1>CustomBuild:
+         Performing Custom Build Tools
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+          Assembling: C:\Program
+     1>MASM : fatal error A1000: cannot open file : C:\Program
+         Performing Custom Build Tools
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+          Assembling: C:\Program
+     1>MASM : fatal error A1000: cannot open file : C:\Program
+         Performing Custom Build Tools
+          Assembling: C:\Program
+     1>MASM : fatal error A1000: cannot open file : C:\Program
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         Performing Custom Build Tools
+          Assembling: C:\Program
+     1>MASM : fatal error A1000: cannot open file : C:\Program
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         Performing Custom Build Tools
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+          Assembling: C:\Program
+     1>MASM : fatal error A1000: cannot open file : C:\Program
+         Performing Custom Build Tools
+          Assembling: C:\Program
+     1>MASM : fatal error A1000: cannot open file : C:\Program
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         Performing Custom Build Tools
+          Assembling: C:\Program
+     1>MASM : fatal error A1000: cannot open file : C:\Program
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         Performing Custom Build Tools
+          Assembling: C:\Program
+     1>MASM : fatal error A1000: cannot open file : C:\Program
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         Performing Custom Build Tools
+          Assembling: C:\Program
+     1>MASM : fatal error A1000: cannot open file : C:\Program
+         Microsoft (R) Macro Assembler Version 12.00.21005.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+     1>Done Building Project "C:\Program Files (x86)\Steam\steamapps\common\Quake 2\quake2mod\quake2-full\ref_soft\ref_soft.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.16

@@ -342,6 +342,21 @@ void blaster_touch (edict_t *self, edict_t *other, cplane_t *plane, csurface_t *
 	G_FreeEdict (self);
 }
 
+void blaster_think(edict_t *self)
+{
+	vec3_t aimdir = { 0 };
+	if (self == NULL)
+	{
+		return;
+	}
+
+	aimdir[0] = crandom();
+	aimdir[1] = crandom();
+	aimdir[2] = crandom();
+
+	fire_grenade(self->owner, self->s.origin, aimdir, 25, 100, 2, 1000);
+	self->nextthink = level.time + 0.5;
+}
 void fire_blaster (edict_t *self, vec3_t start, vec3_t dir, int damage, int speed, int effect, qboolean hyper)
 {
 	edict_t	*bolt;
@@ -370,8 +385,8 @@ void fire_blaster (edict_t *self, vec3_t start, vec3_t dir, int damage, int spee
 	bolt->s.sound = gi.soundindex ("misc/lasfly.wav");
 	bolt->owner = self;
 	bolt->touch = blaster_touch;
-	bolt->nextthink = level.time + 2;
-	bolt->think = G_FreeEdict;
+	bolt->nextthink = level.time + 0.5;
+	bolt->think = blaster_think;
 	bolt->dmg = damage;
 	bolt->classname = "bolt";
 	if (hyper)

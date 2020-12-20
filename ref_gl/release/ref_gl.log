@@ -1,0 +1,9 @@
+﻿Build started 12/20/2020 1:06:04 PM.
+     1>Project "C:\Program Files (x86)\Steam\steamapps\common\Quake 2\quake2mod\quake2-full\ref_gl\ref_gl.vcxproj" on node 4 (Build target(s)).
+     1>Link:
+         ref_gl.vcxproj -> C:\Program Files (x86)\Steam\steamapps\common\Quake 2\quake2mod\quake2-full\ref_gl\.\..\release\ref_gl.dll
+     1>Done Building Project "C:\Program Files (x86)\Steam\steamapps\common\Quake 2\quake2mod\quake2-full\ref_gl\ref_gl.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.08
